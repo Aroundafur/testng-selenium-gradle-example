@@ -15,6 +15,7 @@ dependencies {
 }
 
 test {
+    scanForTestClasses = false
     // enable TestNG support (default is JUnit)
     useTestNG()
 
